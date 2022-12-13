@@ -5,7 +5,7 @@
  * Return: 1 if n > 0
  * 0 if n == zero
  * otherwise Return: -1
- * @n number to check
+ * @n: number to check
 **/
 
 int print_sign(int n)
