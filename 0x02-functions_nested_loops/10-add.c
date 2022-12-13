@@ -6,7 +6,7 @@
  *@x: first int
  *@y: second int
  *z : sum ox x and y
- * Return : z
+ * Return: z
 */
 int add(int x, int y)
 {

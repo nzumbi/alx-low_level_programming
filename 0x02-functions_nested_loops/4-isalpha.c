@@ -2,8 +2,8 @@
 
 /**
  *_isalpha - checks for alphabetic character
- * Return - 1 if c is a letter,
- *otherwise Return - 0
+ * Return:  1 if c is a letter,
+ *otherwise Return: - 0
  * @c: character to check
 **/
 
