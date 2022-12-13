@@ -8,12 +8,12 @@
 
 int main(void)
 {
-	unsigned int x;
+	unsigned int task0;
 	char a[] = "_putchar";
 
-	for (x = 0; x <= 7; x++)
+	for (task0 = 0; task0 <= 7; task0++)
 	{
-		_putchar(a[x]);
+		_putchar(a[task0]);
 	}
 
 	_putchar('\n');
