@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
@@ -9,8 +8,8 @@
 
 int main(void)
 {
-	int x = 612852475143;
-	int y;
+	long int x = 612852475143;
+	long int y;
 
 	for (y = 2; y < x; y++)
 	{
