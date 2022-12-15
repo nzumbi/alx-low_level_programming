@@ -2,24 +2,24 @@
 
 /**
  * print_triangle - prints a triangle
- * followed by a new line
- * @size: size of triangle
+ * using the character #
+ * @n: the size of triangle
  */
-void print_triangle(int size)
+void print_triangle(int n)
 {
-	int hash, index;
+	int h, index;
 
-	if (size > 0)
+	if (n > 0)
 	{
-		for (hash = 1; hash <= size; hash++)
+		for (h = 1; h <= n; h++)
 		{
-			for (index = size - hash; index > 0; index--)
+			for (index = n - h; index > 0; index--)
 				_putchar(' ');
 
-			for (index = 0; index < hash; index++)
+			for (index = 0; index < h; index++)
 				_putchar('#');
 
-			if (hash == size)
+			if (h == n)
 				continue;
 
 			_putchar('\n');
