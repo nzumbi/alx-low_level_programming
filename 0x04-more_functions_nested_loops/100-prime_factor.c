@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
- * print_number - largest prime factor of the number
- * Return: Success Always
+ * main - Entry point
+ * Return: Always 0
  */
-
 
 int main(void)
 {
