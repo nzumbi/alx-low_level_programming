@@ -8,31 +8,22 @@ int _putchar(char c);
 
 /**
  * print_number - largest prime factor of the number
- * @x: parameter integer
- * No return
+ * Return: Success Always
  */
 
 
-void print_number(int x)
+int main(void)
 {
+	int x = 612852475143;
+	int y;
 
-	unsigned int x1 = 0;
-
-	if  (x < 0)
+	for (y = 2; y < x; y++)
 	{
-		x1 = -x;
-		_putchar('-');
+		if (x % y == 0)
+		{
+			x = x / y;
+		}
 	}
-
-	else
-	{
-		x1 = x;
-	}
-
-	if (x1 / 10)
-	{
-		print_number(x1 / 10);
-	}
-
-	_putchar((x1 % 10) + '0');
+	printf("%ld\n", y);
+	return (0);
 }
