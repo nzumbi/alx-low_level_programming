@@ -6,6 +6,7 @@
  * followed by a new line
  * @size: size of the triangle
  */
+
 void print_triangle(int size)
 {
 	if (size <= 0)
@@ -13,11 +14,16 @@ void print_triangle(int size)
 		_putchar('\n');
 	} else
 	{
-		int a, b;
+		int i, j;
 
-		for (a = 1; a <= size; a++)
+		for (i = 1; i <= size; i++)
 		{
-			for (b = 1; b <= a; b++)
+			for (j = i; j < size; j++)
+			{
+				_putchar(' ');
+			}
+
+			for (j = 1; j <= i; j++)
 			{
 				_putchar('#');
 			}
