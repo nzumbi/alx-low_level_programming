@@ -1,4 +1,3 @@
-
 #include "main.h"
 /**
  * rot13 - uses rot 13 to encode a string
